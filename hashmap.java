@@ -1,14 +1,6 @@
-// Create a Map of String Keys to String Values, implemented by the HashMap class
+// Create  HashMap class
 Map<String,String> myMap = new HashMap<String,String>(); 
-    
-// Adds ("Hi","Bye") mapping to myMap
-myMap.put("Hi", "Bye");	
-
-// Print the Value mapped to from "Hi"
-System.out.println(myMap.get("Hi")); 
-
-// Replaces "Bye" mapping from "Hi" with "Bye!" 
-myMap.put("Hi", "Bye!"); 
-
-// Print the Value mapped to from "Hi"
-System.out.println(myMap.get("Hi")); 
+myMap.put("Hello", "GoodBye");	
+System.out.println(myMap.get("Hello")); 
+myMap.put("Hello", "GoodBye!"); //replace GoodBye with GoodBye! 
+System.out.println(myMap.get("Hello")); // Print the Value which is mapped to from "Hello" (replace one)
